@@ -39,6 +39,9 @@ def setup_state_vector():
     state_vector = np.transpose(state_vector)
     return state_vector
 
+## all these numbers are temporary
+## change if neccesasry 
+
 
 mm = setup_markov_matrix()
 sv = setup_state_vector()
